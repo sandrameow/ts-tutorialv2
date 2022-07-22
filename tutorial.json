@@ -22,7 +22,7 @@
       ]
     },
     "repo": {
-      "uri": "https://github.com/sandrameow/ts-tutorial.git",
+      "uri": "https://github.com/sandrameow/ts-tutorialv2.git",
       "branch": "v0.1.0"
     },
     "dependencies": [
@@ -50,7 +50,7 @@
             ],
             "watchers": [
               "package.json",
-              "node_modules/express"
+              "node_modules/typescript"
             ],
             "commits": [
               "22a0137b33d252050b1c98f5f780df8bab3d743a"
