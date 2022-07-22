@@ -1,0 +1,34 @@
+version: '0.1.0'
+id: '1'
+config:
+  testRunner:
+    command: npm run test
+    args:
+      tap: '--reporter=mocha-tap-reporter'
+    directory: coderoad
+  setup:
+    commands:
+      - cd coderoad && npm install
+  repo:
+    uri: 'https://github.com/sandrameow/ts-tutorial.git'
+    branch: v0.1.0
+  dependencies:
+    - name: node
+      version: '>=10'
+levels:
+  - id: '1'
+    steps:
+      - id: '1.1'
+        setup:
+          commands:
+            - npm install
+          files:
+            - package.json
+          watchers:
+            - package.json
+            - node_modules/express
+        solution:
+          files:
+            - package.json
+          commands:
+            - npm install
