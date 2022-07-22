@@ -16,3 +16,28 @@ NPM install the "typescript" library module version.
 
 * Install the package using npm
 * Run `npm install typescript`
+
+## 2. Add work file
+
+> To start first we schould make work file
+
+### 2.1
+
+> Create add.ts file
+
+Create a new file in your code editor and name it add.ts and write the following code in it.
+
+```js
+function addNumbers(a: number, b: number) { 
+    return a + b; 
+} 
+
+var sum: number = addNumbers(10, 15) 
+
+console.log('Sum of the two numbers is: ' +sum); 
+```
+
+#### HINTS
+
+- Create an `add.ts` file to pass this lesson.
+- Copy following code in it
