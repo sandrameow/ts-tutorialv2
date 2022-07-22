@@ -1,0 +1,24 @@
+{
+  "name": "coderoad",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "programmatic-test": "mocha --reporter=mocha-tap-reporter",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandrameow/ts-tutorialv2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sandrameow/ts-tutorialv2/issues"
+  },
+  "homepage": "https://github.com/sandrameow/ts-tutorialv2#readme",
+  "dependencies": {
+    "mocha": "^10.0.0",
+    "mocha-tap-reporter": "^0.1.3"
+  }
+}

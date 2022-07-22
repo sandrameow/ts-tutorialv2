@@ -1,0 +1,19 @@
+{
+  "name": "ts-tutorialv2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cd coderoad && npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandrameow/ts-tutorialv2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sandrameow/ts-tutorialv2/issues"
+  },
+  "homepage": "https://github.com/sandrameow/ts-tutorialv2#readme"
+}
