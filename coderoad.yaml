@@ -32,3 +32,9 @@ levels:
             - package.json
           commands:
             - npm install
+  - id: '2'
+    steps:
+       - id: '2.1'
+         setup:
+            files:
+             - app.ts
