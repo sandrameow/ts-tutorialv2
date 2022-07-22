@@ -74,6 +74,35 @@
           ]
         }
       ]
+    },
+    {
+      "id": "2",
+      "title": "Add work file",
+      "summary": "To start first we schould make work file",
+      "content": "",
+      "steps": [
+        {
+          "id": "2.1",
+          "setup": {
+            "files": [
+              "app.ts"
+            ],
+            "commits": [
+              "042b2dad8a849dd28f44d7a82b96682cf6717d34"
+            ]
+          },
+          "content": "> Create add.ts file\r\n\r\nCreate a new file in your code editor and name it add.ts and write the following code in it.\r\n\r\n```js\r\nfunction addNumbers(a: number, b: number) { \r\n    return a + b; \r\n} \r\n\r\nvar sum: number = addNumbers(10, 15) \r\n\r\nconsole.log('Sum of the two numbers is: ' +sum); \r\n```",
+          "hints": [
+            "Create an `add.ts` file to pass this lesson.",
+            "Copy following code in it"
+          ],
+          "solution": {
+            "commits": [
+              "341ccb061914be554166d84b1595a3a5da699620"
+            ]
+          }
+        }
+      ]
     }
   ]
 }
