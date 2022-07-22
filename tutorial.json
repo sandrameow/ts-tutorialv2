@@ -1,0 +1,79 @@
+{
+  "id": "1",
+  "version": "0.1.0",
+  "summary": {
+    "title": "Learn TypeScript",
+    "description": "TypeScript is an open-source object-oriented language developed and maintained by Microsoft, licensed under Apache 2 license. It is a typed superset of Javascript that compiles to plain JavaScript. TypeScript was developed under Anders Hejlsberg, who also led the creation of the C# language. TypeScript was first released in October 2012."
+  },
+  "config": {
+    "testRunner": {
+      "command": "npm run test",
+      "args": {
+        "tap": "--reporter=mocha-tap-reporter"
+      },
+      "directory": "coderoad"
+    },
+    "setup": {
+      "commands": [
+        "cd coderoad && npm install"
+      ],
+      "commits": [
+        "a6a8c3a3bb8bffbbbc1019ed12ba4abd958ff974"
+      ]
+    },
+    "repo": {
+      "uri": "https://github.com/sandrameow/ts-tutorial.git",
+      "branch": "v0.1.0"
+    },
+    "dependencies": [
+      {
+        "name": "node",
+        "version": ">=10"
+      }
+    ]
+  },
+  "levels": [
+    {
+      "id": "1",
+      "title": "Install TypeScript and Setup Environment",
+      "summary": "Install TypeScript using NPM",
+      "content": "NPM (Node.js package manager) is used to install the TypeScript package on your local machine or a project. Make sure you have Node.js install on your local machine. If you are using JavaScript frameworks for your application, then it is highly recommended to install Node.js.",
+      "steps": [
+        {
+          "id": "1.1",
+          "setup": {
+            "commands": [
+              "npm install"
+            ],
+            "files": [
+              "package.json"
+            ],
+            "watchers": [
+              "package.json",
+              "node_modules/express"
+            ],
+            "commits": [
+              "22a0137b33d252050b1c98f5f780df8bab3d743a"
+            ]
+          },
+          "solution": {
+            "files": [
+              "package.json"
+            ],
+            "commands": [
+              "npm install"
+            ],
+            "commits": [
+              "323270477162260a9b39358369cea88888fe9fca"
+            ]
+          },
+          "content": "NPM install the \"typescript\" library module version.",
+          "hints": [
+            "Install the package using npm",
+            "Run `npm install typescript`"
+          ]
+        }
+      ]
+    }
+  ]
+}

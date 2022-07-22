@@ -10,7 +10,7 @@ config:
     commands:
       - cd coderoad && npm install
   repo:
-    uri: 'https://github.com/sandrameow/ts-tutorial.git'
+    uri: 'https://github.com/sandrameow/ts-tutorialv2.git'
     branch: v0.1.0
   dependencies:
     - name: node
@@ -26,7 +26,7 @@ levels:
             - package.json
           watchers:
             - package.json
-            - node_modules/express
+            - node_modules/typescript
         solution:
           files:
             - package.json
