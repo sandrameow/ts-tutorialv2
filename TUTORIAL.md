@@ -8,7 +8,7 @@ TypeScript is an open-source object-oriented language developed and maintained b
 
 NPM (Node.js package manager) is used to install the TypeScript package on your local machine or a project. Make sure you have Node.js install on your local machine. If you are using JavaScript frameworks for your application, then it is highly recommended to install Node.js.
 
-### 1.1 Level 1 Step 1
+### 1.1 Install dependencies
 
 NPM install the "typescript" library module version.
 
@@ -28,4 +28,24 @@ Create a new file in your code editor and name it app.ts
 #### HINTS
 
 - Create an `add.ts` file to pass this lesson.
+
+## 3. Add code in work file
+
+- Add code to lesson
+
+### 3.1
+
+```js
+function addNumbers(a: number, b: number) { 
+    return a + b; 
+} 
+
+var sum: number = addNumbers(10, 15) 
+
+console.log('Sum of the two numbers is: ' +sum); 
+```
+
+#### HINTS
+
+- Copy or rewrite following code in app.ts
 
